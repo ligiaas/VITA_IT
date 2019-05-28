@@ -1,0 +1,96 @@
+* {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@font-face {
+	font-family: CiscoSans;
+	src: url('../assets/font/CiscoSansTTRegular.ttf');
+}
+
+body {
+	background-color: #00bceb;
+	font-family: CiscoSans;
+}
+
+p {
+	font-size: 23px;
+	line-height: 1.2;
+	padding: 15px 0;
+}
+
+.vt-has {
+	text-transform: none;
+}
+
+.vt-mg {
+	margin: 30px;
+}
+
+.border_red {
+	border: 1px solid red;
+}
+
+.border_purple {
+	border: 1px solid purple;
+}
+
+.title_color {
+	color: #330067 !important;
+}
+
+.btn {
+	background-color: #330067;
+	color: #ffffff;
+}
+
+.btn:hover {
+	color: #ffffff;
+	border: 1px solid #fff;
+}
+
+.vt-footer {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+}
+
+.logo_mob {
+	width: calc(100% - 30%);
+	padding: 5px;
+}
+
+
+.logo_vita {
+	width: 125px;
+}
+
+.logo_cisco {
+	width: 162px;
+}
+
+#CiscoVitanoCIAB {
+  font-size: 24px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 109.938px;
+  top: 112.1px;
+  z-index: 72;
+}
+
+.ACESSE_SUA_CONTA {
+  font-size: 24px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 95.843px;
+  top: 70.1px;
+  z-index: 73;
+}
