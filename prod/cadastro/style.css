@@ -38,31 +38,26 @@ p {
 .btn {
 	background-color: #330067;
 	color: #ffffff;
+	border: 1px solid #fff;
 }
 
 .btn:hover {
 	color: #ffffff;
-	border: 1px solid #fff;
+}
+
+.btn:active {
+	color: #ffffff;
+	background-color: #44036d;
 }
 
 .vt-footer {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-
 }
 
-.logo_mob {
-	width: calc(100% - 30%);
-	padding: 5px;
-}
-
-
-.logo_vita {
-	width: 125px;
-}
-
-.logo_cisco {
-	width: 162px;
+.logo {
+	width: 100%;
+	padding: 0 15px;
 }
 

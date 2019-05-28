@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: CiscoSans;
-	src: url('../assets/font/CiscoSansTTRegular.ttf');
+	src: url('./assets/font/CiscoSansTTRegular.ttf');
 }
 
 body {
@@ -25,14 +25,6 @@ p {
 
 .vt-mg {
 	margin: 30px;
-}
-
-.border_red {
-	border: 1px solid red;
-}
-
-.border_purple {
-	border: 1px solid purple;
 }
 
 .title_color {
